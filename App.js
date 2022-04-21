@@ -89,7 +89,7 @@ export default function App() {
         const result = model.predict(cropped);
         // Get the actual data (an array in this case) from the result tensor.
         const logits = result.dataSync();
-        // Logits should be the probability of two classes (hot dog, not hot dog).
+        // Logits should be the probability of two classes (Wear Mask, Mask On).
         if (logits) {
           setIsMask(logits[0] > logits[1]);
         } else {
