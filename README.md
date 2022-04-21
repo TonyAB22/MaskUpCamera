@@ -6,6 +6,7 @@
 Requirements: Expo Go (Play Store)
 
 type in terminal : yarn
+
 then : yarn start --tunnel
 
 (use Expo Go Qr Reader)
